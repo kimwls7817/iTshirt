@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">day0326_fragment</string>
+    <string name="landturtle">거북목 땅거북과에 속하는 파충류. 야생에서는 초원지대의 풀을 뜯고 먹는다. 지구상의 모든 대륙 통틀어 가장 거대한 육지거북이며, 세계에서 3번째로 거대한 육지거북이다.[1] 나일악어, 아프리카비단뱀 다음으로 아프리카에서 서식하는 파충류들 중 가장 큰 동물이기도 하다.</string>
+    <string name="waterturtle">페닌슐라쿠터는 파충강 거북목 잠경아목 늪거북과 쿠터속에 속하는 거북의 한 종류이다. 다른 반수생 거북들보다 성장속도가 매우 빠르며 가격이 저렴하고 사육이 비교적 용이해 반려 거북으로 인기가 많다.</string>
+    <string name="oceanturtle">넓은 의미로 거북목 중 잠경아목 판켈로니오이데아(Panchelonioidea)류에 속하는 모든 종들의 총칭으로, 여기에는 일반적인 바다거북과 장수거북, 그리고 지금은 멸종한 아르켈론과 친척들이 포함된다. 좁은 의미로는 바다거북상과(Chelonioidea)의 하위 분류군인 바다거북과(Cheloniidae)에 속하는 모든 종들의 총칭이다. 특정 종을 가리킬 때는 푸른바다거북(Chelonia mydas)을 의미한다.</string>
+</resources>

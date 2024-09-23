@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MoneyActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="환전 고시 환율"
+        android:id="@+id/change"
+        android:background="#E2F0FB"
+        android:textSize="25sp"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="달러 환율(USD)"
+        android:id="@+id/usd"
+        android:background="#E2F0FB"
+        android:textSize="25sp"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="유로 환율(EUR)"
+        android:id="@+id/eur"
+        android:background="#E2F0FB"
+        android:textSize="25sp"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="엔화 환율(JPY)"
+        android:id="@+id/jpy"
+        android:background="#E2F0FB"
+        android:textSize="25sp"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="위안 환율(CNY)"
+        android:id="@+id/cny"
+        android:background="#E2F0FB"
+        android:textSize="25sp"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="홍콩h 지수"
+        android:id="@+id/hh"
+        android:background="#E2F0FB"
+        android:textSize="25sp"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="네이버 증권"
+        android:id="@+id/fnc"
+        android:background="#E2F0FB"
+        android:textSize="25sp"
+        android:layout_margin="10dp" />
+
+</LinearLayout>

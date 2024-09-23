@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="배경색(빨강)"
+        android:id="@+id/red" />
+    <item android:title="배경색(녹색)"
+        android:id="@+id/green" />
+    <item android:title="배경색(파랑)"
+        android:id="@+id/blue" />
+    <item android:title="버튼 변경" >
+        <menu>
+            <item android:title="버튼 45도 변경"
+                android:id="@+id/rotate" />
+            <item android:title="버튼 2배 확대"
+                android:id="@+id/sizeup" />
+            <item android:title="버튼 원래 크기로"
+                android:id="@+id/size" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.MediaPrintableArea"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="abc.bcd.B"/>
+    <fullyQualifiedTypeName name="abc.bcd.A"/>
+    <fullyQualifiedTypeName name="abc.A1"/>
+    <fullyQualifiedTypeName name="abc.A2"/>
+    <fullyQualifiedTypeName name="abc.A3"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

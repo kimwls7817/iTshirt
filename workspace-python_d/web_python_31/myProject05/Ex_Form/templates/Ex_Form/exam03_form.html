@@ -1,0 +1,7 @@
+{{ form.errors }}
+<form method="post">
+    {% csrf_token %}
+    나의 이름: {{ form.name }}[{{ form.name.errors }}]<br>
+    나의 나이: {{ form.age }}[{{ form.age.errors }}]<br>
+    <input type="submit" namem="전송"><br>
+</form>

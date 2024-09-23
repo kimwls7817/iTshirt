@@ -1,0 +1,26 @@
+<form method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" namem="전송"><br>
+</form>
+<hr>
+<form method="post">
+    {% csrf_token %}
+    나의 이름: {{ form.name }}<br>
+    나의 나이: {{ form.age }}<br>
+    <input type="submit" namem="전송"><br>
+</form>
+<hr>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" namem="전송"><br>
+</form>
+<hr>
+{{ form.errors }}
+<form method="post">
+    {% csrf_token %}
+    나의 이름: {{ form.name }}[{{ form.name.errors }}]<br>
+    나의 나이: {{ form.age }}[{{ form.age.errors }}]<br>
+    <input type="submit" namem="전송"><br>
+</form>

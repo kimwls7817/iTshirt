@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">day0312_Hello</string>
+    <string name="text1">Hello world</string>
+    <string name="text2">우리집 \n 강아지 귀여워 \n 너네 집 \n 강아지도 귀여워 \n
+        산책할 시간이 되면 \n 문 앞에서 기다려 \n 간식봉지 소리 나면 \n 집안이 뒤집어져</string>
+</resources>

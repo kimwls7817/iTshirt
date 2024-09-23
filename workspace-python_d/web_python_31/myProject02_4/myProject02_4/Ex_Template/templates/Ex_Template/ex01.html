@@ -1,0 +1,14 @@
+{% extends 'Ex_Template/base.html' %} {# base.html을 상속받는다. #}
+{% block title %}Example 01{% endblock %}
+{% block headline %}예제1 - 템플릿 변수{% endblock %}
+{% block content %}
+n1: {{ n1 }}<br>
+lst: {{ lst }}<br>
+tup: {{ tup }}<br>
+dic: {{ dic }}<br>
+<hr>
+{{ lst.0 }}, {{ lst.2 }}<br>
+{{ tup.1 }}, {{ tup.2 }}<br>
+{{ dic.a }}, {{ dic.c }}<br>
+unknown : [{{ un }}] 
+{% endblock %}

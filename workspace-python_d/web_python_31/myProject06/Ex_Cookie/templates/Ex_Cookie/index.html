@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cookie Index</title>
+    </head>
+    <body>
+        <h1>Cookie 실습 메인</h1>
+        <p>Session ID: {{ request.session.session_key }}</p>
+        <p>로그인 상태: 
+            {% if request.session.login_user %}
+                {{ request.session.login_user }}
+                <a href="{% url 'Ex_Cookie:logout' %}">로그아웃</a>
+            {% endif %}
+        </p>
+        <ul>
+            {% for cookie in cookies %}
+                쿠키: {{ cookie }}
+            {% endfor %}
+        </ul>
+        <hr>
+        <a href="{% url 'Ex_Cookie:sc' %}">세션 쿠키 확인</a><br>
+        <a href="{% url 'Ex_Cookie:pc' %}">영구 쿠키 확인</a><br>
+        <a href="{% url 'Ex_Cookie:login' %}">로그인</a><br>
+    </body>
+</html>

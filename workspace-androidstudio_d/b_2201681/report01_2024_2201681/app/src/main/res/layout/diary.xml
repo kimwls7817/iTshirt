@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".DiaryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* !오늘도 맑음! *"
+            android:textStyle="bold"
+            android:textColor="#38A4F8"
+            android:textSize="20dp" />
+        <DatePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePicker1"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:lines="10"
+            android:background="#C1F3FA"
+            android:id="@+id/edtDiary" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="새로 저장"
+            android:enabled="false"
+            android:id="@+id/btnSave" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnReturn"
+            android:text="메인 액티비티로 돌아가기" />
+    </LinearLayout>
+
+</ScrollView>

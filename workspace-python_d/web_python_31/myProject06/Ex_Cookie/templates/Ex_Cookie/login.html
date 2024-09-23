@@ -1,0 +1,7 @@
+<form method="post">
+    {% csrf_token %}
+    <input type="text" name="id" value="{{ rememver_id }}"><br>
+    <input type="password" name="pw"><br>
+    <input type="checkbox" name="remember" {% if rememver_id %}checked{% endif %}>아이디 기억하기
+    <input type="submit" name="로그인"><br>
+<form>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>업로드 파일 목록</title>
+</head>
+<body>
+    <h3>업로드 파일 목록</h3>
+    <ul>
+        {% for file in list %}
+        <li>{{ file.id }}. 
+            <a href="/media/{{ file.file }}" download>{{ file.title }}</a>&nbsp;
+            <img src="/media/{{ file.file }}" width="50" height="50px">&nbsp;
+            <a href="{% url 'Ex_Upload:remove' file.id %}"><button>삭제</button>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

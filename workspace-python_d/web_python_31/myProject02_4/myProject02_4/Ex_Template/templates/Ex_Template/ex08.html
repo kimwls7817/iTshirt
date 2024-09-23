@@ -1,0 +1,9 @@
+<h1>Hello</h1>
+{% comment 'escape' %}
+    문자열에 들어있는 태그가 브라우저에서 해석되지 않도록
+    HTML의 의미를 제거하고 특수문자로 변환하는 것이다.
+{% endcomment %}
+{% autoescape off %}
+결과: {{ html }} (악의적인 코드가 동작됨)<br>
+{% endautoescape %}
+결과: {{ html }} (이스케이프 되어 응답됨)

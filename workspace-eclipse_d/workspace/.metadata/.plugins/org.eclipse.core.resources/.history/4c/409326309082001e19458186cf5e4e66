@@ -1,0 +1,14 @@
+
+public class Project1114_a {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		A aa = new A();
+		System.out.printf("%x\n",aa.hashCode());	//70dea4e
+		System.out.println(aa);		//패키지.클래스명@해쉬코드
+		
+		B bb = new B();
+		System.out.println(bb); 	//킬드값: a=3, b=4
+	}
+
+}

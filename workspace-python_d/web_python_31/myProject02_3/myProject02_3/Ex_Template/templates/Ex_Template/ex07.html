@@ -1,0 +1,10 @@
+value: {{ value}}<br>
+<hr>
+{% with a=value %} <!-- a=value 선언에 공백이 있으면 안됨 -->
+a : [{{ a }}]<br>
+{% endwith %}
+a : [{{ a }}]
+<hr>
+{% with name=info.name %}
+올해의 인물: {{ name }} <!-- 임시 변수 사용 -->
+{% endwith %}

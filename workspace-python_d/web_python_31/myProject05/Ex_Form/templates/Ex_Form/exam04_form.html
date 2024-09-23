@@ -1,0 +1,7 @@
+<p>exam04_form.html</p>
+<form method="post">
+    {% csrf_token %}
+    이름 : {{ form.name }}[{{ form.name.errors }}]<br>
+    나이 : {{ form.age }}[{{ form.age.errors }}]<br>
+    <input type="submit" name="전송"><br>
+</form>

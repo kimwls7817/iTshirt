@@ -1,0 +1,11 @@
+<ul>
+    {% for url in url_list %}
+        <li>url: {{ url }}</li>
+    {% endfor %}
+</ul>
+
+<hr>
+{% url 'Ex_Template:index' %}<br>
+{% url 'Ex_Template:ex01' %}<br>
+{% url 'Ex_Template:ex05path' '2002' 'KimYeJin' %}<br>
+{% url 'Ex_Template:ex05path' n name %}<br>

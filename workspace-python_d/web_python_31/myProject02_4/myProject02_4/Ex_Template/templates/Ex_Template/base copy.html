@@ -1,0 +1,19 @@
+{# 이 템플릿은 모든 템플릿의 기본 베이스 #}
+{# 이 템플릿을 다른 템플릿이 상속하여 block이 지정된 부분을 재정의하여 표현 #}
+<!DOCTYPE html>
+<html lang="euc-kr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Template Index{% endblock %}</title>
+</head>
+<body>
+    <nav>상단 메뉴</nav>
+    <h1>Exam Template</h1>
+    <hr>
+    <h3>{% block headline %}Headline{% endblock %}</h3>
+    <section id="contents">
+        {% block content %}Content ...{% endblock %}
+    </section>
+    <footer>하단 내용</footer>
+</body>
+</html>

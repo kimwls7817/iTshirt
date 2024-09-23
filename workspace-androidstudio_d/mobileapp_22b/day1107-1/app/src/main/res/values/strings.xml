@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="myname">김예진\n안녕하세요.</string>
+    <string name="song">
+        You know I gotcha
+        \nYou know that I got you like that
+        \nAinot nobody gonna have your back
+        \nlike the way I do
+        \nYou love it just say you do
+        \n
+        \nYou know you got me
+        \nEverything you do
+        \nEverything you did
+        \nEverything I wish I was with
+        \nMakes me feel alright
+        \nIam just saying so
+        \n
+        \nI really like it
+        \nNothing in the world can make me feel the way
+        \nyou do the things you do
+        \nI really like it
+        \nNothing in the world can make me feel the way
+        \nyou do the things you do
+    </string>
+    <string name="news">
+        정부가 식당에서 일회용 종이컵 사용을 금지하지 않기로 했다. 카페에서 플라스틱 빨대, 편의점에서 비닐봉지 사용도 한동안 단속하지 않는다. 고물가와 고금리 상황에서 소상공인 부담을 고려했다고 정부는 설명했다. 하지만 시대적 과제이자 국정과제인 일회용품 사용량 감축 정책이 후퇴했다는 비판이 거셀 것으로 보인다. 일부에서는 내년 4월 총선을 고려한 선심성 정책이라는 비판도 나온다.
+        \n환경부는 식당, 카페 등 식품접객업과 집단급식소에서 일회용 종이컵 사용 금지 조처를 철회한다고 7일 발표했다. 식품접객업 등에서 일회용 플라스틱 빨대와 젓는 막대 사용 금지 조처에 대해선 계도기간을 사실상 무기한 연장했다.
+        \n두 조처는 작년 11월 24일 시행된 일회용품 추가 규제 중 일부로, 1년 계도기간이 부여돼 단속과 위반 시 최대 300만 원 이하인 과태료 부과가 이뤄지진 않았다. 환경부는 계도기간에 규제 이행 가능성을 점검한 결과 일회용 종이컵과 플라스틱 빨대 금지가 제일 이행하기 어려운 조처로 파악됐다고 설명했다.
+    </string>
+</resources>
